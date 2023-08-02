@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ----------- css fonts import ----------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&family=Ysabeau:ital,wght@0,400;0,600;0,700;0,1000;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;600;700&display=swap');
+/* -------------------------------- */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.formBtnActive {
+  border-bottom-width: 5px;
+  border-bottom-color: theme(colors.icons);
+  color: black;
+  background-color: theme(colors.Theme_skin);
+}
+
+.formBtnNotActive {
+  color: white;
+}
+
+.errorMsg_form {
+  font-size: medium;
+  color: red;
+}
+
+.successMsg_form {
+  font-size: medium;
+  color: green;
+}
